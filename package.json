@@ -1,6 +1,7 @@
 {
   "name": "gamestore",
   "version": "0.1.0",
+  "homepage": "http://kirboy.github.io/gamestore",
   "private": true,
   "dependencies": {
     "@fancyapps/ui": "^4.0.27",
@@ -31,10 +32,12 @@
   },
   "scripts": {
     "server": "json-server -w server/db.json -p 3001",
-    "start": "node server.js",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -55,6 +58,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "json-server": "^0.17.0"
   }
 }
