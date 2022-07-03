@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/gamestore/static/css/main.2684048b.css",
+    "main.js": "/gamestore/static/js/main.79832749.js",
+    "static/media/fxVE.gif": "/gamestore/static/media/fxVE.67923237fff915773320.gif",
+    "static/media/storebg.jpg": "/gamestore/static/media/storebg.2b2b7113b0cb9b1e96a6.jpg",
+    "static/media/herobg.jpg": "/gamestore/static/media/herobg.99fe810cc2d6553e974e.jpg",
+    "static/media/wheelbg.jpg": "/gamestore/static/media/wheelbg.eb8ff02d859c5a32d4ec.jpg",
+    "static/media/footerbg.png": "/gamestore/static/media/footerbg.0d6c872a4203595148a3.png",
+    "static/media/sliderbg.jpg": "/gamestore/static/media/sliderbg.4ebb919f687dc70330e3.jpg",
+    "static/media/feature.svg": "/gamestore/static/media/feature.d2a62f5b3f0db9c48bd9.svg",
+    "static/media/phone.svg": "/gamestore/static/media/phone.5e51bafe1548316bbaf4.svg",
+    "static/media/wheelText.png": "/gamestore/static/media/wheelText.cea7454200bda20a3f96.png",
+    "static/media/const.svg": "/gamestore/static/media/const.0809386687b42921c2ed.svg",
+    "static/media/mail.svg": "/gamestore/static/media/mail.57f93a69d11a4269b027.svg",
+    "static/media/triengle.svg": "/gamestore/static/media/triengle.f496d29d1c6593527d71.svg",
+    "index.html": "/gamestore/index.html",
+    "static/media/smallTriangle.svg": "/gamestore/static/media/smallTriangle.064f8b59083b5eb78580.svg",
+    "static/media/middleTriangle.svg": "/gamestore/static/media/middleTriangle.3baf78f6500a8297fa61.svg",
+    "static/media/arrow.svg": "/gamestore/static/media/arrow.9df3dd038ba26a9083f0.svg",
+    "main.2684048b.css.map": "/gamestore/static/css/main.2684048b.css.map",
+    "main.79832749.js.map": "/gamestore/static/js/main.79832749.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2684048b.css",
+    "static/js/main.79832749.js"
+  ]
+}
