@@ -6,7 +6,7 @@ export const fetchGames = createAsyncThunk<GameSlide[], string>(
     'home/games',
     async function (type, {rejectWithValue}) {
         try {
-            const response = await axios('http://localhost:3001/' + type)
+            const response = await axios('https://kirboy-gamestore.herokuapp.com/api/' + type)
             const {data} = response
             return data
 

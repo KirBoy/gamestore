@@ -7,7 +7,7 @@ export const fetchGames = createAsyncThunk<Game[]>(
     'shop/games',
     async function (_, {rejectWithValue}) {
         try {
-            const response = await axios('http://localhost:3001/games')
+            const response = await axios('https://kirboy-gamestore.herokuapp.com/api/games')
             const {data} = response
             return data
 
@@ -22,7 +22,7 @@ export const fetchGameById = createAsyncThunk<Game, string>(
     'shop/game',
     async function (id, {rejectWithValue}) {
         try {
-            const response = await axios('http://localhost:3001/games/' + id)
+            const response = await axios('https://kirboy-gamestore.herokuapp.com/api/games/' + id)
             const {data} = response
             return data
 
