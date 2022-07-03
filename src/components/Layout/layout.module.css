@@ -1,0 +1,153 @@
+
+.header {
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+}
+
+.header__top {
+  background-color: rgba(38, 38, 38, 0.8);
+  padding: 0 15px;
+  border-bottom: 2px solid rgba(3, 208, 255, 0.8);
+  color: #6c6c6c;
+}
+
+.header__topInner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+.header__bot {
+  text-align: center;
+  background-color: rgba(38, 38, 38, 0.7);
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 465px;
+  background-color: rgba(24, 24, 24, 0.9);
+  border-radius: 15px;
+  padding: 10px 25px;
+
+}
+
+.search__icon {
+  width: 22px;
+  height: 22px;
+  margin-right: 10px;
+}
+
+.search__input {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.footer {
+  font-family: Roboto, sans-serif;
+  background-image: url("../../assets/footerbg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  font-weight: 400;
+  border-top: 2px solid #01CFFE;
+}
+
+.footer__bottom {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.footer__bottom span {
+  font-size: 12px;
+  line-height: 14px;
+  color: #01CFFE;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  max-width: 730px;
+  padding: 54px 15px 0 15px;
+  margin: 0 auto;
+}
+
+.footer__title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 34px;
+}
+
+.footer__titleMargin {
+  margin-bottom: 10px;
+}
+
+.footer__list {
+  list-style: inside;
+  color: #01CFFE;
+}
+
+.footer__item {
+  position: relative;
+  font-size: 14px;
+}
+
+.footer__item + .footer__item {
+  margin-top: 18px;
+}
+
+.footer__mail,
+.footer__phone {
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+  padding-left: 30px;
+}
+
+.footer__consultation {
+  position: relative;
+  padding-left: 30px;
+}
+.footer__mail:after,
+.footer__phone:after,
+.footer__consultation:after {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 0;
+  top: -20%;
+  background-repeat: no-repeat;
+}
+
+.footer__mail:after {
+  background-image: url("../../assets/mail.svg");
+}
+
+.footer__phone:after {
+  height: 17px;
+  background-image: url("../../assets/phone.svg");
+}
+
+.footer__consultation:after {
+  background-image: url("../../assets/const.svg");
+}
+
+.footer__social {
+  display: flex;
+  width: 112px;
+  justify-content: space-between;
+  align-items: center;
+}
+

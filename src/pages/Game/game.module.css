@@ -1,0 +1,160 @@
+.game {
+  height: 100vh;
+  background-color: #0C0C0C;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  padding-top: 230px;
+}
+
+.game:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0C0C0C;
+  opacity: 0.7;
+  z-index: 1;
+}
+
+.game__slider {
+  position: absolute;
+  z-index: 10;
+}
+
+.game__inner {
+  position: relative;
+  z-index: 2;
+}
+
+.game__left {
+  display: flex;
+  width: 100%;
+}
+
+.game__middle {
+  width: 100%;
+}
+
+
+.game__top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.game__banner {
+  max-width: 300px;
+  height: 474px;
+  object-fit: cover;
+  margin-right: 40px;
+}
+
+.game__title {
+  font-size: 36px;
+  line-height: 45px;
+  margin-bottom: 20px;
+}
+
+.game__data {
+  display: flex;
+  align-items: center;
+}
+
+.game__data + .game__data {
+  margin-top: 20px;
+}
+
+.game__features {
+  margin-bottom: 35px;
+}
+
+.game__feature {
+  text-align: left;
+  width: 112px;
+  margin-right: 15px;
+}
+
+.game__platforms {
+  display: flex;
+  align-items: center;
+}
+
+.game__platform + .game__platform {
+  margin-left: 10px;
+}
+
+.game__desc {
+  font-size: 24px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+.game__text {
+  display: block;
+  font-size: 18px;
+  line-height: 22px;
+  max-width: 527px;
+  max-height: 190px;
+  color: #C4C4C4;
+  text-overflow: ellipsis;
+}
+
+.game__right {
+  align-self: flex-end;
+  max-width: 343px;
+  width: 100%;
+}
+
+.game__rating {
+  margin-bottom: 60px;
+}
+
+.game__buy {
+  display: flex;
+}
+
+.game__price {
+  padding: 5px;
+  text-align: center;
+  display: block;
+  width: 161px;
+  font-weight: 700;
+  font-size: 34px;
+  background-image: linear-gradient(90deg, #232323 85.9%, rgba(35, 35, 35, 0) 99.09%);
+  border-radius: 76px;
+}
+
+.game__btn {
+  padding: 10px 10px 15px;
+  text-align: center;
+  border: none;
+  width: 188px;
+  font-weight: 700;
+  font-size: 24px;
+  background-image: linear-gradient(180deg, #01CFFE 35.42%, #00A7CD 100%);
+  box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.25), 0px 5px 12px rgba(0, 191, 234, 0.3);
+  border-radius: 14px;
+  color: #FFFFFF;
+}
+
+.game__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.game__item {
+  cursor: pointer;
+}
+
+.game__item + .game__item {
+  margin-left: 20px;
+}
+
+.game__screen {
+  width: 240px;
+  height: 140px;
+  object-fit: contain;
+}

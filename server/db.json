@@ -1,0 +1,625 @@
+{
+  "hero": [
+    {
+      "id": 1,
+      "title": "Cyberpunk 2077",
+      "platforms": [
+        "windows",
+        "xbox",
+        "playstation"
+      ],
+      "price": "899",
+      "urlImg": "/assets/hero/cyberpunk.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Watch Dogs Legion",
+      "platforms": [
+        "windows",
+        "xbox",
+        "playstation"
+      ],
+      "price": "915",
+      "urlImg": "/assets/hero/watchDogsLegion.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Resident Evil 3",
+      "platforms": [
+        "windows",
+        "xbox",
+        "playstation"
+      ],
+      "price": "1499",
+      "urlImg": "/assets/hero/residentEvil3.jpg"
+    },
+    {
+      "id": 4,
+      "title": "The Last of Us Part II",
+      "platforms": [
+        "playstation"
+      ],
+      "price": "4499",
+      "urlImg": "/assets/hero/theLastOfUs2.png"
+    },
+    {
+      "id": 5,
+      "title": "Call of Duty: Cold War",
+      "platforms": [
+        "windows",
+        "xbox",
+        "playstation"
+      ],
+      "price": "2799",
+      "urlImg": "/assets/hero/callOfDutyColdWar.png"
+    }
+  ],
+  "new": [
+    {
+      "id": 5,
+      "title": "Mount & Blade II",
+      "platforms": [
+        "windows"
+      ],
+      "price": "849",
+      "isAvailable": true,
+      "urlImg": "/assets/new/mountBlade.jpg",
+      "slide": 2
+    },
+    {
+      "id": 6,
+      "title": "Crusader Kings III",
+      "platforms": [
+        "windows"
+      ],
+      "price": "550",
+      "isAvailable": true,
+      "urlImg": "/assets/new/crusaderKings3.jpg",
+      "slide": 1
+    },
+    {
+      "id": 7,
+      "title": "Doom Eternal",
+      "platforms": [
+        "windows",
+        "xbox",
+        "playstation"
+      ],
+      "price": "1320",
+      "isAvailable": true,
+      "urlImg": "/assets/new/doomEternal.jpg",
+      "slide": 0
+    },
+    {
+      "id": 8,
+      "title": "Far Cry 6",
+      "platforms": [
+        "windows",
+        "xbox",
+        "playstation"
+      ],
+      "price": "1990",
+      "isAvailable": false,
+      "urlImg": "/assets/new/farCry6.jpg",
+      "slide": -1
+    },
+    {
+      "id": 9,
+      "title": "Iron Harvest",
+      "platforms": [
+        "windows"
+      ],
+      "price": "699",
+      "isAvailable": true,
+      "urlImg": "/assets/new/ironHarvest.jpg",
+      "slide": -2
+    },
+    {
+      "id": 10,
+      "title": "Iron Harvest",
+      "platforms": [
+        "windows",
+        "xbox",
+        "playstation"
+      ],
+      "price": "699",
+      "isAvailable": true,
+      "urlImg": "/assets/new/ironHarvest.jpg",
+      "slide": -3
+    },
+    {
+      "id": 11,
+      "title": "Iron Harvest",
+      "platforms": [
+        "windows",
+        "xbox",
+        "playstation"
+      ],
+      "price": "699",
+      "isAvailable": true,
+      "urlImg": "/assets/new/ironHarvest.jpg",
+      "slide": -4
+    },
+    {
+      "id": 12,
+      "title": "Iron Harvest",
+      "platforms": [
+        "windows",
+        "xbox",
+        "playstation"
+      ],
+      "price": "699",
+      "isAvailable": true,
+      "urlImg": "/assets/new/ironHarvest.jpg",
+      "slide": -5
+    }
+  ],
+  "games": [
+    {
+      "id": 1,
+      "title": "Cyberpunk 2077",
+      "platforms": [
+        "windows",
+        "xbox",
+        "playstation"
+      ],
+      "genre": [
+        "Шутер",
+        "Открытый мир",
+        "Ролевые"
+      ],
+      "price": "3.499",
+      "urlImg": "/assets/games/cyberpunk77.jpg",
+      "favorite": false,
+      "dateRealise": "10 декабря 2020",
+      "developers": "CD Projekt",
+      "description": "Cyberpunk 2077 — приключенческая ролевая игра с открытым миром, рассказывающая о киберпанке-наёмнике Ви и борьбе за жизнь в мегаполисе Найт-Сити. Мрачное будущее стало ещё более впечатляющим в улучшенной версии, в которую вошли новые дополнительные материалы. Создайте персонажа, выберите стиль игры и начните свой путь к высшей лиге, выполняя заказы, улучшая репутацию и оттачивая навыки. Ваши поступки влияют на происходящее и на весь город. В нём рождаются легенды. Какую сложат о вас?",
+      "rating": "8.7",
+      "bannerImg": "/assets/games/banners/1banner.jpg",
+      "screenShots": [
+        "/assets/games/screenShots/1screenShop1.jpg",
+        "/assets/games/screenShots/1screenShop2.jpg",
+        "/assets/games/screenShots/1screenShop3.jpg",
+        "/assets/games/screenShots/1screenShop4.jpg",
+        "/assets/games/screenShots/1screenShop5.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Watch Dogs Legion",
+      "platforms": [
+        "windows",
+        "xbox",
+        "playstation"
+      ],
+      "price": "2499",
+      "urlImg": "/assets/games/2store.jpg",
+      "genre": [
+        "Экшен",
+        "Открытый мир",
+        "Ролевые"
+      ],
+      "favorite": false,
+      "dateRealise": "29 октября 2020",
+      "developers": "Ubisoft Montreal",
+      "description": "Watch Dogs: Legion - это третья часть серии Watch Dogs, события которой разворачиваются в антиутопическом Лондоне, который прошел через «брекзит» (выход Великобритании из Европейского союза). Как и предыдущие части серии, Legion - это экшен с открытым миром, по которому можно перемещаться как на своих двоих, так и с помощью разнообразного транспорта. ",
+      "rating": "7.0",
+      "bannerImg": "/assets/games/banners/2banner.jpg",
+      "screenShots": [
+        "/assets/games/screenShots/2screenShop1.jpg",
+        "/assets/games/screenShots/2screenShop2.jpg",
+        "/assets/games/screenShots/2screenShop3.jpg",
+        "/assets/games/screenShots/2screenShop4.jpg",
+        "/assets/games/screenShots/2screenShop5.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Resident Evil 3",
+      "platforms": [
+        "windows",
+        "xbox",
+        "playstation"
+      ],
+      "price": "1499",
+      "urlImg": "/assets/games/3store.jpg",
+      "genre": [
+        "Хоррор",
+        "Экшен"
+      ],
+      "favorite": false,
+      "dateRealise": "3 апреля 2020",
+      "developers": "Capcom",
+      "description": "Resident Evil 3 Remake - это переиздание Resident Evil 3: Nemesis для современных платформ, в котором разработчики с нуля перерисовали графику, перезаписали звук и добавили новые детали. В комплекте с игрой также идет Project Resistance - кооперативный спин-офф серии с асиметричным многопользовательским режимом. ",
+      "rating": "8.0",
+      "bannerImg": "/assets/games/banners/3banner.jpg",
+      "screenShots": [
+        "/assets/games/screenShots/3screenShop1.jpg",
+        "/assets/games/screenShots/3screenShop2.jpg",
+        "/assets/games/screenShots/3screenShop3.jpg",
+        "/assets/games/screenShots/3screenShop4.jpg",
+        "/assets/games/screenShots/3screenShop5.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "The Last of Us Part II",
+      "platforms": [
+        "playstation"
+      ],
+      "price": "4499",
+      "urlImg": "/assets/games/4store.jpg",
+      "genre": [
+        "Приключения",
+        "Экшен"
+      ],
+      "favorite": false,
+      "dateRealise": "19 июня 2020",
+      "developers": "Naughty Dog Software",
+      "description": "The Last of Us 2 - это продолжение приключенческого боевика The Last of Us. События игры разворачиваются спустя пять лет после событий оригинала, а главными героями вновь становятся протагонисты оригинальной игры - Джоэл и Элли. Игроков ждет совершенно иная история, сконцентрированная вокруг ненависти и мести, а не вокруг любви. Главной же героиней второй части становится не Джоэл, а Элли.",
+      "rating": "10",
+      "bannerImg": "/assets/games/banners/4banner.jpg",
+      "screenShots": [
+        "/assets/games/screenShots/4screenShop1.jpg",
+        "/assets/games/screenShots/4screenShop2.jpg",
+        "/assets/games/screenShots/4screenShop3.jpg",
+        "/assets/games/screenShots/4screenShop4.jpg",
+        "/assets/games/screenShots/4screenShop5.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Call of Duty: Cold War",
+      "platforms": [
+        "windows",
+        "xbox",
+        "playstation"
+      ],
+      "price": "2799",
+      "urlImg": "/assets/games/5store.jpg",
+      "genre": [
+        "Шутеры",
+        "Экшен"
+      ],
+      "favorite": false,
+      "dateRealise": "13 ноября 2020",
+      "developers": "Raven Software",
+      "description": "Call of Duty: Black Ops — Cold War - это шутер с видом от первого лица, события которой разворачиваются во время Холодной войны между СССР и США. Игра является прямым продолжением Call of Duty: Black Ops, а ее события разворачиваются в начале 1980-х годов, между событиями Black Ops и Black Ops 2. Игроки в роли бойца спецотряда под руководством агента ЦРУ Рассела Адлера должны отыскать и уничтожить советского шпиона Персея, который готовится устроить масштабную диверсию в Европе и обвинить в этом США. ",
+      "rating": "8.0",
+      "bannerImg": "/assets/games/banners/5banner.jpg",
+      "screenShots": [
+        "/assets/games/screenShots/5screenShop1.jpg",
+        "/assets/games/screenShots/5screenShop2.jpg",
+        "/assets/games/screenShots/5screenShop3.jpg",
+        "/assets/games/screenShots/5screenShop4.jpg",
+        "/assets/games/screenShots/5screenShop5.jpg"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "The Elder Scrolls 5: Skyrim",
+      "price": "1849",
+      "urlImg": "/assets/games/6shop.jpg",
+      "platforms": [
+        "windows"
+      ],
+      "genre": [
+        "RPG"
+      ],
+      "favorite": false,
+      "dateRealise": "11 ноября 2011",
+      "developers": "Bethesda Softworks",
+      "description": "The Elder Scrolls V: Skyrim - это приключенческая ролевая игра, пятая часть в серии The Elder Scrolls, с огромным открытым миром, который с самого начала полностью доступен для исследования. Игрокам предстоит выступить в роли Довакина, Драконорожденного, который появляется в провинции Скайрим аккурат во время возвращения легендарных драконов, которые, по преданию, собираются разрушить мир. Довакину предстоит преодолеть множество трудностей на пути к своей цели - остановить драконьего повелителя Алдуина, который готовится обрушить свою ярость на весь мир. ",
+      "rating": "10",
+      "bannerImg": "/assets/games/banners/6banner.jpg",
+      "screenShots": [
+        "/assets/games/screenShots/6screenShop1.jpg",
+        "/assets/games/screenShots/6screenShop2.jpg",
+        "/assets/games/screenShots/6screenShop3.jpg",
+        "/assets/games/screenShots/6screenShop4.jpg",
+        "/assets/games/screenShots/6screenShop5.jpg"
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Crusader Kings III",
+      "price": "1550",
+      "urlImg": "/assets/games/7shop.jpg",
+      "platforms": [
+        "windows"
+      ],
+      "genre": [
+        "RPG",
+        "Стратегии"
+      ],
+      "favorite": false,
+      "dateRealise": "1 сентября 2020",
+      "developers": "Bethesda Softworks",
+      "description": "Crusader Kings 3 - это третья часть популярной серии исторических стратегий от студии Paradox, в которой игроков ждет полюбившийся геймплей с рядом совершенно новых механик а также с обновленными графикой и интерфейсом. В остальном же это вновь историческая глобальная стратегия, которая предлагает всем желающим взять на себя роль одного из многочисленных средневековых правителей, и привести свою династию - и страну - к успеху и процветанию.",
+      "rating": "10",
+      "bannerImg": "/assets/games/banners/7banner.jpg",
+      "screenShots": [
+        "/assets/games/screenShots/7screenShop1.jpg",
+        "/assets/games/screenShots/7screenShop2.jpg",
+        "/assets/games/screenShots/7screenShop3.jpg",
+        "/assets/games/screenShots/7screenShop4.jpg",
+        "/assets/games/screenShots/7screenShop5.jpg"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Doom Eternal",
+      "platforms": [
+        "windows",
+        "xbox",
+        "playstation"
+      ],
+      "price": "1320",
+      "urlImg": "/assets/games/20shop.jpg",
+      "genre": [
+        "Экшен",
+        "Шутер"
+      ],
+      "favorite": false,
+      "dateRealise": "20 марта 2020",
+      "developers": "Bethesda Softworks",
+      "description": "Doom Eternal - это продолжение перезапуска Doom 2016 года выпуска. События игры переносятся с Марса на Землю, которая пострадала от вторжения демонов невиданных масштабов. В роли Палача Рока игрокам предстоит освободить Землю и уничтожить как можно больше отродий. Кроме Земли, Думгай также заглянет на базу людей на Фобосе, а также, разумеется, вновь посетит Ад. ",
+      "rating": "9.0",
+      "bannerImg": "/assets/games/banners/20banner.jpg",
+      "screenShots": [
+        "/assets/games/screenShots/20screenShop1.jpg",
+        "/assets/games/screenShots/20screenShop2.jpg",
+        "/assets/games/screenShots/20screenShop3.jpg",
+        "/assets/games/screenShots/20screenShop4.jpg",
+        "/assets/games/screenShots/20screenShop5.jpg"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Far Cry 6",
+      "platforms": [
+        "windows",
+        "xbox",
+        "playstation"
+      ],
+      "price": "1990",
+      "urlImg": "/assets/games/8shop.jpg",
+      "genre": [
+        "Экшен",
+        "Шутер"
+      ],
+      "favorite": false,
+      "dateRealise": "7 октября 2021",
+      "developers": "Ubisoft Entertainment",
+      "description": "Far Cry 6 - шестая часть боевиков с открытым миром, события которой разворачиваются в вымышленной стране Яра, прототипом которой стала Куба. Правитель страны по имени Антон Кастилло пытается всеми силами вернуть своей стране былую страну, используя при этом все доступные методы - из-за чего в стране зарождается движение сопротивления, ставящее своей целью свержение диктатора. Игрокам отводится роль Дани Рохаса, одного из жителей Яра, который примкнул к сопротивлению. ",
+      "rating": "4.1",
+      "bannerImg": "/assets/games/banners/8banner.jpg",
+      "screenShots": [
+        "/assets/games/screenShots/8screenShop1.jpg",
+        "/assets/games/screenShots/8screenShop2.jpg",
+        "/assets/games/screenShots/8screenShop3.jpg",
+        "/assets/games/screenShots/8screenShop4.jpg",
+        "/assets/games/screenShots/8screenShop5.jpg"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Iron Harvest",
+      "platforms": [
+        "windows"
+      ],
+      "price": "799",
+      "urlImg": "/assets/games/9shop.jpg",
+      "genre": [
+        "Экшен",
+        "Стратегии"
+      ],
+      "favorite": false,
+      "dateRealise": "1 сентября 2020",
+      "developers": "Ubisoft Entertainment",
+      "description": "Iron Harvest - это стратегия в реальном времени, созданная на основе работ художника Якуба Розальски. События игры разворачиваются во времена альтернативного 1920 года, где Мировая война ведется с помощью дизельпанковских человекоподобных роботов. Игроков ждут несколько сторон конфликта, уникальные юниты, а также сражения в реальном времени между армиями боевых роботов совершенно безумных дизайнов. ",
+      "rating": "7.0",
+      "bannerImg": "/assets/games/banners/9banner.jpg",
+      "screenShots": [
+        "/assets/games/screenShots/9screenShop1.jpg",
+        "/assets/games/screenShots/9screenShop2.jpg",
+        "/assets/games/screenShots/9screenShop3.jpg",
+        "/assets/games/screenShots/9screenShop4.jpg",
+        "/assets/games/screenShots/9screenShop5.jpg"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Marvel’s Avengers",
+      "platforms": [
+        "windows",
+        "xbox",
+        "playstation"
+      ],
+      "genre": [
+        "Экшен",
+        "Открытый мир"
+      ],
+      "price": "1.319",
+      "urlImg": "/assets/games/marvel.jpg",
+      "favorite": false,
+      "dateRealise": "4 сентября 2020",
+      "developers": "Crystal Dynamics",
+      "description": "Marvel’s Avengers - это проект во вселенной «Мстителей» в партнерстве Marvel Entertainment и Square Enix. События его разворачиваются в отдельной вселенной спустя пять лет после чудовищного теракта, ставшего известным как A-Day. Мстители вновь собираются после атаки террористов, планируя очистить свое доброе имя и отбить захваченные ими технологии. В базовой версии игроков ждут Капитан Америка, Тор, Халк, Черная вдова, и Железный человек, однако после релиза будут выходить дополнительные герои.",
+      "rating": "6.5",
+      "bannerImg": "/assets/games/banners/13banner.jpg",
+      "screenShots": [
+        "/assets/games/screenShots/13screenShop1.jpg",
+        "/assets/games/screenShots/13screenShop2.jpg",
+        "/assets/games/screenShots/13screenShop3.jpg",
+        "/assets/games/screenShots/13screenShop4.jpg",
+        "/assets/games/screenShots/13screenShop5.jpg"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Microsoft Flight Simulator",
+      "platforms": [
+        "windows",
+        "xbox"
+      ],
+      "genre": [
+        "Симуляторы"
+      ],
+      "price": "4.360",
+      "urlImg": "/assets/games/microsoftFlightSimulator.jpg",
+      "favorite": false,
+      "dateRealise": "18 августа 2020",
+      "developers": "Microsoft Game Studios",
+      "description": "Microsoft Flight Simulator - это авиационный симулятор нового поколения, продолжающий знаменитую серию от Microsoft. Игроков ждет огромный выбор гражданских самолетов различных моделей, на которых можно будет облететь весь мир, любуясь динамической сменой дня и ночи, реалистичной погодой и другими графическими наворотами. ",
+      "rating": "7.5",
+      "bannerImg": "/assets/games/banners/14banner.jpg",
+      "screenShots": [
+        "/assets/games/screenShots/14screenShop1.jpg",
+        "/assets/games/screenShots/14screenShop2.jpg",
+        "/assets/games/screenShots/14screenShop3.jpg",
+        "/assets/games/screenShots/14screenShop4.jpg",
+        "/assets/games/screenShots/14screenShop5.jpg"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Wasteland 3",
+      "platforms": [
+        "windows",
+        "playstation",
+        "xbox"
+      ],
+      "genre": [
+        "RPG",
+        "Стратегии"
+      ],
+      "sale": 40,
+      "price": "2.099",
+      "lastPrice": 3.499,
+      "urlImg": "/assets/games/Wasteland3.jpg",
+      "favorite": false,
+      "dateRealise": "28 августа 2020",
+      "developers": "inXile Entertainment",
+      "description": "Wasteland 3 — это продолжение серии ролевых игр, положивших начало жанру постапокалипсиса в видеоиграх. Третья часть продолжает историю серии, рассказывая о мире после апокалипсиса с точки зрения пустынных рейнджеров - единственных представителей закона в постъядерных пустошах. В третьей части события разворачиваются сотню лет спустя после войны. Игроки отправляются  на север, в заснеженные горы Колорадо, где рейнджеров поджидают как головорезы, так и безумные культисты, причем у каждой фракции есть свои проблемы и задания. ",
+      "rating": "7.5",
+      "bannerImg": "/assets/games/banners/15banner.jpg",
+      "screenShots": [
+        "/assets/games/screenShots/15screenShop1.jpg",
+        "/assets/games/screenShots/15screenShop2.jpg",
+        "/assets/games/screenShots/15screenShop3.jpg",
+        "/assets/games/screenShots/15screenShop4.jpg",
+        "/assets/games/screenShots/15screenShop5.jpg"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Serious Sam 4",
+      "platforms": [
+        "windows",
+        "xbox",
+        "playstation"
+      ],
+      "genre": [
+        "Экшен",
+        "Шутер",
+        "Приключения"
+      ],
+      "sale": 50,
+      "lastPrice": 2149,
+      "price": "1.319",
+      "urlImg": "/assets/games/seriousSam4.jpg",
+      "favorite": false,
+      "dateRealise": "24 сентября 2020",
+      "developers": "Croteam",
+      "description": "Serious Sam 4: Planet Badass - это четвертая часть знаменитых экшенов от первого лица, в котором центральную роль вновь играет Сэмюэль \"Сэм\" Стоун, эксперт по уничтожению полчищ инопланетных войск Ментала, которые тот обрушил на Землю. Сюжетно четвертая часть представляет собой приквел ко всей серии - ее события разворачиваются еще до событий Seripus Sam 3: BFE, и повествуют они об отчаянных попытках человечества защитить свою родину от орд инопланетных захватчиков. ",
+      "rating": "7.8",
+      "bannerImg": "/assets/games/banners/16banner.jpg",
+      "screenShots": [
+        "/assets/games/screenShots/16screenShop1.jpg",
+        "/assets/games/screenShots/16screenShop2.jpg",
+        "/assets/games/screenShots/16screenShop3.jpg",
+        "/assets/games/screenShots/16screenShop4.jpg",
+        "/assets/games/screenShots/16screenShop5.jpg"
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Desperados III",
+      "platforms": [
+        "windows",
+        "xbox",
+        "playstation"
+      ],
+      "genre": [
+        "Стратегии"
+      ],
+      "price": "2.499",
+      "urlImg": "/assets/games/Desperados3.jpg",
+      "favorite": false,
+      "dateRealise": "24 сентября 2020",
+      "developers": "Mimimi Games",
+      "description": "Desperados III - это продолжение серии тактических стратегий, события которой разворачиваются на Диком Западе. Игру разрабатывают создатели Shadow Tactics: Blades of the Shogun, а главным героем триквела вновь станет стрелок по имени Джон Купер. Игроков ждут разнообразные персонажи, огромное количество тактических ухищрений, охота за головами и уникальная атмосфера Дикого Запада. ",
+      "rating": "8.5",
+      "bannerImg": "/assets/games/banners/17banner.jpg",
+      "screenShots": [
+        "/assets/games/screenShots/17screenShop1.jpg",
+        "/assets/games/screenShots/17screenShop2.jpg",
+        "/assets/games/screenShots/17screenShop3.jpg",
+        "/assets/games/screenShots/17screenShop4.jpg",
+        "/assets/games/screenShots/17screenShop5.jpg"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Valheim",
+      "platforms": [
+        "windows"
+      ],
+      "genre": [
+        "Выживание"
+      ],
+      "price": "499",
+      "urlImg": "/assets/games/18shop.jpg",
+      "favorite": false,
+      "dateRealise": "2 февраля 2021",
+      "developers": "Iron Gate AB",
+      "description": "Valheim — это экшен-песочница с элементами выживания, события которой происходят в одном из миров нордической мифологии, куда попадают павшие викинги. Задача игрока — бороться со злом, угрожающему этому измерению. В Valheim нужно исследовать огромный мир, сражаться с врагами, охотиться на животных, крафтить предметы, собирать ресурсы и заниматься строительством (и, само собой, обустройством) собственного жилья.",
+      "rating": "8.2",
+      "bannerImg": "/assets/games/banners/18banner.jpg",
+      "screenShots": [
+        "/assets/games/screenShots/18screenShop1.jpg",
+        "/assets/games/screenShots/18screenShop2.jpg",
+        "/assets/games/screenShots/18screenShop3.jpg",
+        "/assets/games/screenShots/18screenShop4.jpg",
+        "/assets/games/screenShots/18screenShop5.jpg"
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Mount & Blade 2: Bannerlord",
+      "platforms": [
+        "windows"
+      ],
+      "genre": [
+        "Экшен",
+        "Открытый мир"
+      ],
+      "price": "849",
+      "urlImg": "/assets/games/19shop.jpg",
+      "favorite": false,
+      "dateRealise": "30 марта 2020 г.",
+      "developers": "TaleWorlds Entertainment",
+      "description": "Mount & Blade II: Bannerlord представляет собой долгожданное продолжение знаменитой ролевой игры и симулятора средневековых войн Mount & Blade: Warband. Действие этой игры происходит за 200 лет до начала первой части. Улучшения коснулись как боевой системы, так и самой Кальрадии. Штурмуйте горные твердыни с помощью осадных орудий, создавайте тайные преступные империи на задворках городов или ищите славу в хаосе ожесточенных битв. Выбор за вами!",
+      "rating": "8.7",
+      "bannerImg": "/assets/games/banners/19banner.jpg",
+      "screenShots": [
+        "/assets/games/screenShots/19screenShop1.jpg",
+        "/assets/games/screenShots/19screenShop2.jpg",
+        "/assets/games/screenShots/19screenShop3.jpg",
+        "/assets/games/screenShots/19screenShop4.jpg",
+        "/assets/games/screenShots/19screenShop5.jpg"
+      ]
+    }
+  ]
+}
